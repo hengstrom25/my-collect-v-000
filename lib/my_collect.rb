@@ -1,7 +1,7 @@
 def my_collect(x)
   if block_given?
     i =0
-    x = []
+    new_array = []
     while i < x.length
       yield(x[i])
       i += 1
