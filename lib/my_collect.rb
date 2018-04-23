@@ -7,6 +7,6 @@ def my_collect(x)
       i += 1
     end
  
-    new_array
+    x
   end
 end
