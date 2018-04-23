@@ -7,6 +7,6 @@ def my_collect(x)
       i += 1
     end
  
-    print x
+    x(modified)
   end
 end
