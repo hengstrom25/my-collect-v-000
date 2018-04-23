@@ -1,7 +1,12 @@
 def my_collect(x)
-    new_array = []
-    self.each do |words|
-      new_array << yield(words)
+  if block_given?
+    i =0
+ 
+    while i < x.length
+      yield(x[i])
+      i = i + 1
     end
-    new_array
+ 
+    x
   end
+end
