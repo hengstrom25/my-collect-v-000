@@ -7,6 +7,6 @@ def my_collect(x)
       i += 1
     end
  
-    x
+    print x
   end
 end
