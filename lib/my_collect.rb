@@ -3,8 +3,8 @@ def my_collect(x)
     i =0
  
     while i < x.length
-      yield(x[i])
-      i = i + 1
+      yield(x[i])le
+      i += 1
     end
  
     x
